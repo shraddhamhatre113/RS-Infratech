@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohit's Webpage</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./carousel.css" />
     <script
       src="https://kit.fontawesome.com/f6adf96490.js"
       crossorigin="anonymous"
@@ -52,20 +53,86 @@
           <label class="action-menu" for="hamburger-check">
             <div class="hamburger"></div>
           </label>
-          <ul class="nav-item ">
+          <ul class="nav-item  ">
             <li><a href="#home">Home</a></li>
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact-us">Contact Us</a></li>
+           
           </ul>
-          <span class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </span>
+          <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
         </nav>
       </div>
     </header>
-    <div class="hero"></div>
+    <div class="hero">
+      <div id="slider">
+         <div class="slides">
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>
+            CONSTRUCTION INDUSTRY
+          </h1>
+     
+          <button class="button-yellow">Check</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/bg.jpg" />
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>
+            “When SERVICES MATTERS”
+          </h1>
+          <h4>YOUR CHOICE IS SIMPLE</h4>
+          <button class="button-yellow">Check</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/bg.jpg" />
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h2>
+            MEET OUR ENGINEERS
+          </h2>
+          <h1>WE BELIEVE IN SUSTAINABILITY</h1>
+          we will deal with your failure how you achieve success.
+          <button class="button-yellow">Check</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/bg.jpg" />
+      </div>
+    </div>
+  </div>
+  <div class="switch">
+    <ul>
+      <li>
+        <div class="on"></div>
+      </li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+ 
+</div>
+<div class = "action-style ">
+  <h3>WE UNDERSTAND YOUR NEEDS ON CONSTRUCTION</h3>
+  <button>Request Quote</button>
+</div>
+
+</div
+    </div>
 
     <main>
       <section>
@@ -110,46 +177,31 @@
               aliquid repudiandae, itaque numquam laboriosam tenetur voluptatum
               voluptate recusandae quaerat cum.
             </p>
-            <div class="accordion-container">
-              <div class="accordion-menu">
-                <input type="checkbox" id="checkbox-id" />
-                <label class="tab-label" for="checkbox-id">SAFETY</label>
-                <div class="square-icon">
-                  <i class="fa-solid fa-square-caret-up"></i>
-                </div>
-                <div class="table-content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Provident nisi, asperiores iste rem hic officiis eius
-                    beatae,!
-                  </p>
-                </div>
-              </div>
-              <div class="accordion-menu">
-                <input type="checkbox" id="checkbox_id" class="dropdown-menu" />
-                <label class="tab-label" for="dropdown-1"
-                  >CUSTOMER SERVICE</label
-                >
-                <div class="table-content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Provident nisi, asperiores iste rem hic officiis eius
-                    beatae,!
-                  </p>
+            <div class="accordian row">
+              <div class="col">
+                <div class="tabs">
+                  <div class="tab">
+                    <input type="checkbox" id="chck1">
+                    <label class="tab-label" for="chck1">SAFETY</label>
+                    <div class="tab-content">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis!
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <input type="checkbox" id="chck2">
+                    <label class="tab-label" for="chck2">CUSTOMER-SERVICE</label>
+                    <div class="tab-content">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                    </div>
+                    <div class="tab">
+                      <input type="checkbox" id="chck3">
+                      <label class="tab-label" for="chck3">INTEGRITY</label>
+                      <div class="tab-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                      </div>
+                  </div>
                 </div>
               </div>
-              <div class="accordion-menu">
-                <input type="checkbox" id="checkbox_id" class="dropdown-menu" />
-                <label class="tab-label" for="dropdown-1">INTEGRITY</label>
-                <div class="table-content">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Provident nisi, asperiores iste rem hic officiis eius
-                    beatae,!
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -250,7 +302,7 @@
               </div>
             </div>
             <div class="project-img">
-              <img src="./images/PHOTO-2020-10-13-12-25-06 (1).jpg" alt="" />
+              <img src="./images/bunglow.jpg" alt="" />
               <div class="project-text">
                 <h1>Road construction</h1>
               </div>
@@ -268,7 +320,7 @@
               </div>
             </div>
             <div class="project-img">
-              <img src="./images/web-image-gate-1000x500-1.jpg" alt="" />
+              <img src="./images/remote.jpeg" alt="" />
               <div class="project-text">
                 <h1>Road construction</h1>
               </div>
@@ -297,12 +349,14 @@
           </div>
           <div class="working-hours">
             <span>WORKING-HOURS</span>
-            <p>
+            <p class="wh-content">
               We work 7 days a week, every day excluding major holidays.<br />Contact
               is if you have an emergency, with our Hotline and Contact form
             </p>
-            <p>Monday to Saturday 10:00-16:00</p>
-            <p>sunday and holidays 9:00-12:00</p>
+            <div class="timing">
+              <p >Monday to Saturday 10:00-16:00</p>
+              <p>sunday and holidays 9:00-12:00</p>
+            </div>
           </div>
           <div class="services">
             <span>SERVICES</span>
@@ -326,3 +380,5 @@
     </footer>
   </body>
 </html>
+
+
